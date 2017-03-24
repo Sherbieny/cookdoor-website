@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<title>Home</title>
+	
+  	<meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link href="App_Themes/CDThemes/style.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+    <link href="App_Themes/CDThemes/togroba.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/CDThemes/gallery.min.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/CDThemes/gallery.theme.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <!--<script src="js/script.js"></script>-->
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/Images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<link rel="stylesheet" href="App_Themes/CDThemes/ie.css"> 
+<![endif]-->
+
+</head>
+<body class="home">
+<!-- Header -->
+<header>
+	<div class="container_12">
+    	<div>
+        	<article class="grid_5">
+                <div class="wrapper">
+                    <h1><a class="rotate" href="home.html"></a></h1>
+                </div>
+            </article>
+            <article class="grid_7" style="margin-left:120px;">
+                <nav>
+                    <ul class="menu">
+                        <li><a class="blacky" href="Home.html">Home</a></li>
+                        <li><a href="About.html">About us</a></li>
+                        <li><a href="Menu.aspx">Menu </a></li>
+                        <li ><a href="contact.aspx">Contact us</a></li>
+                           
+                    </ul>
+                </nav>
+            </article>
+            <div class="clear"></div>
+    </div>
+</header>
+
+<!-- Content -->
+	<!--	
+    <div id="slideshow-wrap">
+    <div class="gallery autoplay items-3">
+    
+        <input type="radio" id="button-1" name="controls" checked="checked"/>
+        <label for="button-1"></label>
+        <input type="radio" id="button-2" name="controls"/>
+        <label for="button-2"></label>
+        <input type="radio" id="button-3" name="controls"/>
+        <label for="button-3"></label>
+        <input type="radio" id="button-4" name="controls"/>
+        <label for="button-4"></label>
+        <label for="button-1" class="arrows" id="arrow-1">></label>
+        <label for="button-2" class="arrows" id="arrow-2">></label>
+        <label for="button-3" class="arrows" id="arrow-3">></label>
+        <label for="button-4" class="arrows" id="arrow-4">></label>
+        <div id="slideshow-inner">
+            <ul>
+                <li id="slide1">
+                    <img src="Images/111.jpg" />
+
+                </li>
+                <li id="slide2">
+                    <img src="Images/11.jpg" />
+
+                </li>
+                <li id="slide3">
+                    <img src="Images/22.jpg" />
+
+                </li>
+                <li id="slide4">
+                    <img src="Images/33.jpg" />
+
+                </li>
+
+            </ul>
+        </div>
+    </div>		
+		-->
+
+<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img style="border-radius:21px 21px 21px 21px;" src="Images/11.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img style="border-radius:21px 21px 21px 21px;" src="Images/22.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img style="border-radius:21px 21px 21px 21px;" src="Images/33.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img style="border-radius:21px 21px 21px 21px;" src="Images/44.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+
+
+
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+
+    </li>
+</ul>
+<!-- <section id="content" class="page1">
+ -->
+ <br />
+ <div style="width:100%;text-align:center;">
+ 		<img src="Images/a.jpg" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="Images/b.jpg" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="Images/c.jpg" />
+
+ </div>
+ <br/>
+<table class="bottomMenu" >
+<tr>
+<td align="center">
+                <a href="https://www.facebook.com/pages/Cookdoor/118413855008108"><img class="rotate" style="width:32px;height:32px;margin-top:2px;" src="Images/face.png" alt=""></a>
+            	&nbsp;
+                <a href="http://www.youtube.com/watch?v=98HOeZy8c2E"><img class="rotate"  style="width:32px;height:32px; margin-top:2px;" src="Images/you.png" alt=""></a>
+                <a href="http://www.otlob.com"><img class="rotate"  style="width:40px;height:40px;" src="Images/otlobBas.png" alt=""></a>
+                
+</td>
+<td style="horizontal-align:right !important;">
+                    <ul class="menu2">
+                        <li ><a  href="franchise.aspx">Franchise</a></li>
+                        <li><a href="locator.aspx">Store Locator </a></li>
+                        <li><a href="join.html">Join Our Team</a></li>
+                    </ul>
+</td>
+</tr>
+</table>
+
+
+					<br />
+	<div class="bottomMenu2">
+    	   <table style="width:100%">
+           <tr>
+           <td style="width:50%;text-align:left;">
+                   <img src="Images/dial.png"/>
+           </td>
+           <td style="width:50%;text-align:right;color:Black;font-size:medium;font-weight:bold;">
+                        Cook Door brings passion to the dining experience,
+                        that is reflected in every aspect of the restaurants
+                        operations, that is tangible in the quality of the
+                        ingredients, in the composition of each sandwich,
+                        and in the warm smiles of each member of the staff
+                   <br /><br />
+                   All Copyrights 2013 &copy reserved to COOK DOOR Egypt
+                   <br />
+                   Powered by <strong><a href="http://www.cshark.co/" style="color:rgb(141,223,250);" title="CShark | Developments">CSHARK</a></strong> 
+          
+          </td>
+           
+
+          </tr>
+          </table>
+           
+      </div>  
+
+
+
+		
+		
+</body>
+</html>

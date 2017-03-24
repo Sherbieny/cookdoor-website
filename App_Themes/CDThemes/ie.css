@@ -1,0 +1,5 @@
+*+html{overflow:auto;}
+header,.menu li,.bg-1,.menu li li {behavior:url(js/PIE.htc);position:relative}
+.menu ul{behavior:url(js/PIE.htc);}
+header {-pie-background:linear-gradient(#232323 0%, #2e2c2c 31%, #322f2f 49%, #322f2f 100%);}
+.bg-1 {-pie-background:linear-gradient(#282828 0%, #282727 4%, #322f2f 35%, #322f2f 100%);}

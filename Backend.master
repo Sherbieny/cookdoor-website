@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Backend.master.cs" Inherits="Backend" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"> 
+ <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+    <title></title>
+    <link href="App_Themes/CDThemes/back.css" rel='stylesheet' type='text/css' />
+  <div id="header">
+
+<table style="width:100%">
+
+    <tr>
+        <td style="width:80%">
+            <ul id='menu'>
+	            <li><a href="#">Products</a>
+        
+                    <ul>
+                        <li><a href="AddProduct.aspx"><span>Add</span></a></li>
+                        <li><a href="EditProduct.aspx"><span>Edit</span></a></li>
+                        <li><a href="RemoveProduct.aspx"><span>Remove</span></a></li>
+                        <li><a href="GetProducts.aspx"><span>View</span></a></li>
+
+                    </ul>
+                </li>
+	            <li><a href="#">Branches</a>
+		
+		            <ul>
+                        <li><a href="AddBranch.aspx"><span>  Add  </span></a></li>
+                        <li><a href="EditBranch.aspx"><span>  Edit  </span></a></li>
+                        <li><a href="RemoveBranch.aspx"><span>  Remove  </span></a></li>
+                        <li><a href="GetBranches.aspx"><span>  View  </span></a></li>
+		
+		            </ul>
+	            </li>
+	           <%-- <li><a href="#">Categories</a>
+                    <ul>
+                        <li><a href="AddCategory.aspx"><span>Add</span></a></li>
+                        <li><a href="EditCategory.aspx"><span>Edit</span></a></li>
+                        <li><a href="RemoveCategory.aspx"><span>Remove</span></a></li>
+        
+                    </ul>
+                </li>	
+               --%> <li ><a href="#">Accounts</a>
+                        <ul>
+                            <li><a href="AddAccount.aspx"><span>Add</span></a></li>
+                            <li><a href="EditPassword.aspx"><span>Edit</span></a></li>
+                      
+                        </ul>
+                    </li>
+                
+                <li style="float:right; height:18px; top:0; margin-right:8px"><a href="Login.aspx"><img src="../Images/whiteexit.png" height="20px" width="20px"/></a></li>
+          
+                
+           </ul>
+        </td>
+        <td class="icon">
+          <a href="../Home.html"> <img src="../Images/logog.png" height="90px" style="float:center"  /></a>
+        </td>
+
+
+    </tr>
+</table>
+</div>
+
+
+    <asp:ContentPlaceHolder  id="HeadContent" runat="server">
+    
+    </asp:ContentPlaceHolder>
+   
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div id ="center">
+        <asp:ContentPlaceHolder id="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer" class="abyad">
+    <br />
+        All Copyrights 2013 © reserved to COOK DOOR Egypt
+        <br />
+        Powered By S&S&trade;
+    </div>
+    </form>
+</body>
+</html>

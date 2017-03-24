@@ -1,0 +1,23 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="effat.aspx.cs" Inherits="effat" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div id="main-demo" class="pikachoose">
+        <ul id="pikachoose">
+         <li><img src="/wp-content/uploads/main-demo/1.jpg" alt="" /><span>Images by <a href="http://dlanham.com/" target="_blank">David Lanham</a> from <a target="_blank" href="http://iconfactory.com/home">The Icon Factory</a></span></li>
+         <li><img src="/wp-content/uploads/main-demo/2.jpg" alt="" /><span>PikaChoose is customizable with a ton of awesome options!</span></li>
+         <li><img src="/wp-content/uploads/main-demo/3.jpg" alt="" /><span>Use custom images or let PikaChoose create thumbs for you.</span></li>
+         <li><img src="/wp-content/uploads/main-demo/4.jpg" alt="" /><span>Tested for IE7+ works smoothly and flawlessly </span></li>
+         <li><img src="/wp-content/uploads/main-demo/5.jpg" alt="" /><span>It can't get any easier to use than PikaChoose!</span></li>
+        </ul>
+    </div>
+    </form>
+</body>
+</html>
